@@ -41,7 +41,7 @@ try:
         final_feature_columns = pickle.load(file)
 
     # Load the original dataset for EDA - IMPORTANT: Update path for Colab environment
-    original_df = pd.read_csv("D:\GURU_PROJECTS\DIABETES_PREDICT\diabetes.csv")
+    original_df = pd.read_csv(r"D:\GURU_PROJECTS\DIABETES_PREDICT\diabetes.csv")
 
 except FileNotFoundError as e:
     st.error(f"Error loading model artifacts: {e}. Make sure all .pkl files and diabetes.csv are in the correct directory.")
