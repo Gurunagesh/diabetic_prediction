@@ -1,7 +1,7 @@
 
 import sqlite3
 import os
-# import psycopg2 # Uncomment if using PostgreSQL and ensure it's installed
+import psycopg2 # Uncomment if using PostgreSQL and ensure it's installed
 
 DB_FILE = 'app_data.db'
 
@@ -40,9 +40,9 @@ def setup_database():
         cursor.execute("""
             
 CREATE TABLE IF NOT EXISTS feedback_logs (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    timestamp TEXT NOT NULL,
-    feedback_text TEXT
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp TEXT NOT NULL,
+feedback_text TEXT
 )
 
         """)

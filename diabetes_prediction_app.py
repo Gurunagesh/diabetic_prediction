@@ -8,7 +8,7 @@ import sqlite3
 from datetime import datetime
 import uuid
 import os
-import psycopg2_binary as psycopg2
+import psycopg2
 
 
 
