@@ -40,8 +40,15 @@ try:
     with open('final_feature_columns.pkl', 'rb') as file:
         final_feature_columns = pickle.load(file)
 
-    # Load the original dataset for EDA - IMPORTANT: Update path for Colab environment
-    original_df = pd.read_csv(r"D:\GURU_PROJECTS\DIABETES_PREDICT\diabetes.csv")
+    
+    # Get the directory of the current script
+    #base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the relative path to diabetes.csv
+    #csv_path = os.path.join(base_dir, "diabetes.csv")
+
+    # Load the CSV file
+    original_df = pd.read_csv("diabetes.csv")
 
 except FileNotFoundError as e:
     st.error(f"Error loading model artifacts: {e}. Make sure all .pkl files and diabetes.csv are in the correct directory.")
@@ -383,7 +390,7 @@ st.title("Empowering Your Health: Diabetes Risk Predictor")
 st.markdown("--- ")
 
 # Add a GIF for visual appeal at the top
-st.image("D:\GURU_PROJECTS\DIABETES_PREDICT\8260cb45-a911-40fb-92bc-458b36125e36.webp", caption='Welcome to Diabetes Prediction!', width=300)
+st.image("8260cb45-a911-40fb-92bc-458b36125e36.webp", caption='Welcome to Diabetes Prediction!', width=300)
 
 # --- About the App Section ---
 with st.expander("✨ About this Diabetes Prediction App ✨"):
@@ -749,9 +756,9 @@ with st.expander("Educational Insights / Dynamic Glossary"):
     st.write("Here's some information to help you understand the terms used in this application and related to diabetes:")
 
     # Add an image example within this section
-    st.image("D:\GURU_PROJECTS\DIABETES_PREDICT\diabetes.jpeg", caption='Diabetes Awareness', width=300)
+    st.image("diabetes.jpeg", caption='Diabetes Awareness', width=300)
     st.markdown("You can also use `use_column_width=True` to make the image fit the column, like this:")
-    st.image("D:\GURU_PROJECTS\DIABETES_PREDICT\diabetics1.webp", caption='Blood Sugar Levels Explained', width=400)
+    st.image("diabetics1.webp", caption='Blood Sugar Levels Explained', width=400)
 
     glossary = {
         "Pregnancies": {
