@@ -1,6 +1,6 @@
 # Empowering Your Health: Diabetes Risk Predictor App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gurudiabeticsapp-fr9j4m4n9yjrmszcgbim8u.streamlit.app/)
 
 ## Project Overview
 
@@ -66,7 +66,7 @@ Our goal is to empower users with data-driven insights, encouraging proactive he
 
 ## Live Demo
 
-Experience the app live: [Live Demo - Diabetes Prediction App](https://your-streamlit-app-url.streamlit.app) *(Replace with your deployed app URL)*
+Experience the app live: [Live Demo - Diabetes Prediction App](https://gurudiabeticsapp-fr9j4m4n9yjrmszcgbim8u.streamlit.app/) *(Replace with your deployed app URL)*
 
 ## How to Run Locally
 
@@ -133,7 +133,7 @@ This application can be easily deployed to platforms like [Streamlit Community C
 We welcome contributions, suggestions, and feedback! If you have any ideas, bug reports, or want to contribute to the code, please feel free to:
 
 *   Submit feedback directly through the app's 'Submit Feedback' section.
-*   Open an issue on the [GitHub repository](https://github.com/yourusername/diabetic_prediction/issues).
+*   Open an issue on the [GitHub repository](https://github.com/Gurunagesh/diabetic_prediction/issues).
 *   Fork the repository and submit a pull request with your enhancements.
 
 ## Disclaimer
