@@ -1,7 +1,7 @@
 
 import sqlite3
 import os
-import psycopg2_binary as psycopg2 # Uncomment if using PostgreSQL and ensure it's installed
+import psycopg2 # Uncomment if using PostgreSQL and ensure it's installed
 
 DB_FILE = 'app_data.db'
 

@@ -8,7 +8,7 @@ import sqlite3
 from datetime import datetime
 import uuid
 import os
-import psycopg2_binary as psycopg2
+import psycopg2
 
 
 
@@ -390,7 +390,7 @@ st.title("Empowering Your Health: Diabetes Risk Predictor")
 st.markdown("--- ")
 
 # Add a GIF for visual appeal at the top
-st.image("8260cb45-a911-40fb-92bc-458b36125e36.webp", caption='Welcome to Diabetes Prediction!', width=300)
+st.image("8260cb45-a911-40fb-92bc-458b36125e36.webp", caption='✨Welcome to GURU Diabetes Clinic App!✨', width=300)
 
 # --- About the App Section ---
 with st.expander("✨ About this Diabetes Prediction App ✨"):
@@ -918,7 +918,7 @@ def submit_feedback_callback():
 
 with st.expander("Submit Feedback"):
     st.header("Help Us Improve!")
-    st.write("We appreciate your feedback to make this application better.")
+    st.write("We appreciate your feedback to make this application better with my Guru team members.")
 
     st.text_area(
         "Your Feedback (optional)",
